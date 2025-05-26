@@ -1,0 +1,22 @@
+{
+    "name": "rohitshakyaa/repository-generator",
+    "description": "Laravel package to generate repositories with automatic interface and service provider binding.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RohitShakyaa\\RepositoryGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RohitShakyaa\\RepositoryGenerator\\RepositoryGeneratorServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    }
+}
